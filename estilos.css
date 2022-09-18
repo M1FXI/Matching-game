@@ -1,0 +1,32 @@
+button {
+    margin-bottom: 2px;
+}
+
+img {
+    max-width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.mostrar{
+    animation:fading 3s normal}@keyframes fading{0%{opacity:0}50%{opacity:1}
+}
+.esconder{
+    opacity: 0;
+}
+
+#baralho {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+#baralho div {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Fira Sans;
+}
